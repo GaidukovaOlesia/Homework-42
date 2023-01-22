@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home work 42</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container">
+    <form name="form" id="form">
+    <div>
+        <label for="name"><b>Ім'я</b>
+            <input name="nameInput" type="text" id="name">
+        </label>
+    </div>
+    <div>
+        <label for="last-name"><b>Прізвище</b>
+            <input name="nameLastInput" type="text" id="last-name">
+        </label>
+    </div>
+    <div>
+        <label for="date"><b>Дата народження</b>
+            <input name="dataOfBirthday" type="date" id="date">
+        </label>
+    </div>
+    <div>
+        <h4><b>Стать</b></h4>
+        <label for="man"> Man
+                <input type="radio" class="gender" id="man" name="rad" value="Man" checked>
+        </label>
+        <label for="woman"> Woman
+            <input type="radio" class="gender" id="woman" name="rad" value="Woman">
+        </label>
+
+
+    </div>
+    <div >
+        <label for="city"><b>Місто</b>
+            <select id="city">
+                <option id="kiev" value="Київ">Київ</option>
+                <option id="dnepr" value="Дніпро">Дніпро</option>
+                <option id="lviv" value="Львів">Львів</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <label><b>Адреса</b>
+            <textarea name="adress" id="adress"></textarea>
+        </label>
+    </div>
+    <div class="languedge">
+        <h4><b>Мова, якою володієте</b></h4>
+        <div class="flex">
+            <input type="checkbox" name="check" id="eng" class="lang" value="English"> <label for="eng">English</label>
+        </div>
+        <div class="flex">
+            <input type="checkbox" name="check" id="ukr" class="lang" value="Ukrainian"> <label for="ukr">Ukrainian</label>
+        </div>
+        <div class="flex">
+            <input type="checkbox" name="check" id="frn" class="lang" value="French"> <label for="frn">French</label>
+        </div>
+
+
+
+    </div>
+    <button id="button"><b>Зберегти</b></button>
+
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
